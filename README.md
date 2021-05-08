@@ -97,7 +97,7 @@ As it stands, we have a few colors in our `constants.js` file. When we want to u
 import { COLORS } from '../../constants';
 
 const Something = styled.p`
-  color: ${COLORS.gray[900]};
+  color: var(--color-gray-900);
 `;
 ```
 
